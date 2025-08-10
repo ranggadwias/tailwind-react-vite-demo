@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.card {
+  @apply bg-slate-100 w-full sm:max-w-[250px] rounded-lg 
+  overflow-hidden border border-gray-300;
+}
+
+.card-content {
+  @apply px-5 py-4;
+}
+
+.card-button {
+  @apply bg-slate-500 hover:bg-slate-600 
+  text-white text-xs
+  mt-3 block w-full py-2 px-6 rounded-sm
+  transition duration-300 cursor-pointer;
+}
+
+.product-name {
+  @apply font-semibold mt-3;
+}
+
+.product-price {
+  @apply text-xs mt-2
+  line-through opacity-50;
+}
+
+.product-discount-price {
+  @apply text-sm px-2 py-1 mt-2
+  bg-red-500 text-white rounded;
+}
