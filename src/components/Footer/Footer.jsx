@@ -139,11 +139,11 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="flex justify-between pt-6">
+        <div className="flex flex-col-reverse md:flex-row items-center gap-y-6 md:gap-y-0 md:justify-between pt-6">
           <p className="text-slate-500 text-[10px]">
             &copy; 2025 VibeWear. All rights reserved.
           </p>
-          <div className="flex gap-x-6">
+          <div className="flex gap-x-10 md:gap-x-6">
             <Link
               to="/"
               className="text-[10px] text-slate-500 hover:font-medium"

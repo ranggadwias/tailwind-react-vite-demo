@@ -12,7 +12,8 @@
 }
 
 .card-content {
-  @apply px-5 py-4;
+  @apply px-5 py-4
+  flex flex-col justify-between flex-grow;
 }
 
 .card-button {

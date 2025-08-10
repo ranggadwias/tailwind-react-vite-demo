@@ -3,7 +3,7 @@ import React from "react";
 const ProductCard = ({ products }) => {
   return (
     <>
-      <div className="card">
+      <div className="card flex flex-col h-full">
         <div className="relative cursor-pointer group overflow-hidden">
           <img
             className="transform group-hover:scale-105 group-hover:rotate-3 transition duration-300"
@@ -17,7 +17,7 @@ const ProductCard = ({ products }) => {
         </div>
         <div className="card-content">
           <h3 className="product-name">{products.name}</h3>
-          <div className="flex items-center gap-3 flex-wrap">
+          <div className="flex items-center gap-x-3 flex-wrap">
             <p className="product-price">
               Rp{new Intl.NumberFormat("id-ID").format(products.price)}
             </p>
