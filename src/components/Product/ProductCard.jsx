@@ -11,7 +11,7 @@ const ProductCard = ({ products }) => {
             alt={products.name}
           />
           <div className="absolute inset-0 flex justify-center items-center">
-            <span className="absolute text-white text-lg z-50 opacity-0 group-hover:opacity-100 transition duration-300 transform scale-90 group-hover:scale-100">View Details</span>
+            <span className="absolute text-white text-lg z-50 opacity-0 group-hover:opacity-100 transition duration-300 transform scale-90 group-hover:scale-100">Lihat Detail</span>
           </div>
           <div className="bg-black opacity-0 absolute inset-0 group-hover:opacity-50 transition duration-300 flex justify-center items-center"></div>
         </div>
@@ -25,7 +25,7 @@ const ProductCard = ({ products }) => {
               Rp{new Intl.NumberFormat("id-ID").format(products.discountPrice)}
             </p>
           </div>
-          <button className="card-button">Add to Cart</button>
+          <button className="card-button">Pesan Sekarang</button>
         </div>
       </div>
     </>

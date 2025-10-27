@@ -1,51 +1,51 @@
-import tshirt from "../../assets/image/product-1.png";
-import hoodie from "../../assets/image/product-2.png";
-import windbreaker from "../../assets/image/product-3.png";
-import sneakers from "../../assets/image/product-4.png";
-import pants from "../../assets/image/product-5.png";
-import bag from "../../assets/image/product-6.png";
+import nasilengko from "../../assets/image/product-1.png";
+import ketoprak from "../../assets/image/product-2.png";
+import ayamgeprek from "../../assets/image/product-3.png";
+import ayambakar from "../../assets/image/product-4.png";
+import teajus from "../../assets/image/product-5.png";
+import americano from "../../assets/image/product-6.png";
 
 export const products = [
   {
     id: 1,
-    name: "Graphic Tee",
-    image: tshirt,
-    price: 250000,
-    discountPrice: 200000,
+    name: "Nasi Lengko",
+    image: nasilengko,
+    price: 50000,
+    discountPrice: 5000,
   },
   {
     id: 2,
-    name: "Regular Fit Hoodie",
-    image: hoodie,
-    price: 300000,
-    discountPrice: 270000,
+    name: "Ketoprak",
+    image: ketoprak,
+    price: 8000,
+    discountPrice: 5000,
   },
   {
     id: 3,
-    name: "Windbreaker Jacket",
-    image: windbreaker,
-    price: 350000,
-    discountPrice: 330000,
+    name: "Ayam Geprek",
+    image: ayamgeprek,
+    price: 20000,
+    discountPrice: 10000,
   },
   {
     id: 4,
-    name: "Men's Sneakers",
-    image: sneakers,
-    price: 399000,
-    discountPrice: 299000,
+    name: "Ayam Bakar",
+    image: ayambakar,
+    price: 35000,
+    discountPrice: 12000,
   },
   {
     id: 5,
-    name: "Cargo Pants",
-    image: pants,
-    price: 299000,
-    discountPrice: 279000,
+    name: "Tea Jus Lemon",
+    image: teajus,
+    price: 15000,
+    discountPrice: 3000,
   },
   {
     id: 6,
-    name: "Tote Bag",
-    image: bag,
-    price: 179000,
-    discountPrice: 154000,
+    name: "Americano 10 Shot",
+    image: americano,
+    price: 59000,
+    discountPrice: 27000,
   },
 ];

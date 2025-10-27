@@ -1,22 +1,22 @@
 export const navLinks = [
   {
     id: 1,
-    title: "New Arrivals",
+    title: "Beranda",
     link: "/",
   },
   {
     id: 2,
-    title: "Men",
+    title: "Layanan",
     link: "#",
   },
   {
     id: 3,
-    title: "Women",
+    title: "Pemesanan",
     link: "#",
   },
   {
     id: 4,
-    title: "Kids",
+    title: "Pembayaran",
     link: "#",
   },
 ];

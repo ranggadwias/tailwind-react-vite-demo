@@ -31,7 +31,7 @@ const Navbar = () => {
           }`}
         >
           <div className="text-lg md:text-xl lg:text-2xl font-semibold">
-            <p>VibeWear</p>
+            <p>Kantin PBJT</p>
           </div>
 
           <div className="hidden md:block">
